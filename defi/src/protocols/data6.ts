@@ -6842,5 +6842,32 @@ const data6: Protocol[] = [
     ],
     listedAt: 1781754096,
   },
+  {
+    id: "8034",
+    name: "Kinetiq Launch",
+    address: null,
+    symbol: "-",
+    url: "https://kinetiq.xyz/launch",
+    description:
+      "Launch is an Exchange-as-a-Service (EaaS) platform built on Hyperliquid's HIP-3 protocol, enabling anyone to deploy and operate their own perpetual futures exchange.",
+    chain: "Hyperliquid L1",
+    logo: `${baseIconsUrl}/kinetiq-launch.jpg`,
+    audits: "2",
+    audit_links: [
+      "https://kinetiq-cms.vercel.app/api/media/file/launch-june-2026-cantina.pdf",
+      "https://kinetiq-cms.vercel.app/api/media/file/launch-may-2026-zerocool.pdf",
+    ],
+    gecko_id: null,
+    cmcId: null,
+    category: "Liquid Staking",
+    chains: ["Hyperliquid L1"],
+    module: "kinetiq-launch/index.js",
+    twitter: "kinetiq_xyz",
+    listedAt: 1781690909,
+    parentProtocol: "parent#kinetiq",
+    dimensions: {
+      fees: "kinetiq-launch",
+    }
+  },
 ];
 export default data6;
